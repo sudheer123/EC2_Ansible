@@ -1,0 +1,18 @@
+---
+# defaults file for ec2-launch
+
+# AWS credentials
+#ec2_access_key: "AKIAIKZVDDCLNQO66UOQ"
+#ec2_secret_key: "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"
+
+# ec2 module variables
+#ec2_launch_id: "ami-f63b1193"
+ec2_launch_count: "1"
+ec2_launch_count_tag: "test"
+ec2_launch_exact_count: "2"
+ec2_launch_image: "ami-0b1e356e"
+ec2_launch_groups: "sg-ea78b881"
+ec2_launch_instance_type: "t2.micro"
+ec2_launch_key_name: "ChefWS"
+ec2_launch_region: "us-east-2"
+ec2_launch_state: "present"

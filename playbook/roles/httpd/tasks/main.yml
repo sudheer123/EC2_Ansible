@@ -1,0 +1,9 @@
+---
+# tasks file for httpd
+- name: Installing httpd package
+  yum: name=httpd state=present
+- name: Starting and enabling the httpd service
+  service: name=httpd state=started 
+# name: copy configuration template
+#  template: src=httpd.conf.j2 dest=/etc/httpd/conf/httpd.conf 
+

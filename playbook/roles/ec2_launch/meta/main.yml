@@ -1,0 +1,18 @@
+galaxy_info:
+  author: ichundu
+  description: Provision AWS EC2 instances
+
+  license: GPLv2
+
+  platforms:
+    - name: GenericUNIX
+      versions:
+        - any
+
+  min_ansible_version: 2.2
+
+  galaxy_tags:
+    - ec2
+    - aws
+    - launch
+    - provision

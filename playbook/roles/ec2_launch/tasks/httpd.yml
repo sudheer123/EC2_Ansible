@@ -1,0 +1,4 @@
+- name: Install Apache webservice
+  tasks:
+    - yum: name=httpd state=present
+    - service: name=httpd state=started
